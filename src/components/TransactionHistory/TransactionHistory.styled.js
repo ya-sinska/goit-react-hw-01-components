@@ -16,10 +16,15 @@ padding: 10px;
 export const TBody = styled.tbody`
 text-align: center;
 `
+export const TRow = styled.tr`
+&:nth-of-type(2n) {
+  background: #ecf1f3;
+}
+`
 export const TData = styled.td`
-
 padding: 7px;
 font-size: 14px;
 border: 1px solid #c3c8c9;
 color: #414445;
+text-transform: capitalize;
 `
